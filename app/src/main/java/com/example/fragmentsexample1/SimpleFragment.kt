@@ -44,4 +44,8 @@ class SimpleFragment : Fragment() {
         
         return rootView
     }
+
+    public fun newInstance(): SimpleFragment {
+        return SimpleFragment()
+    }
 }
